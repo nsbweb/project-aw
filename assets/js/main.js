@@ -79,17 +79,13 @@
 
   });      
 
-
-
-  
-
 }(jQuery));
 
-$("#directors").load("data/directors.html", function(responseTxt, statusTxt, jqXHR){
-  if(statusTxt == "success"){
-      alert("New content loaded successfully!");
-  }
-  if(statusTxt == "error"){
-      alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
-  }
-});
+// $("#directors").load("data/directors.html", function(responseTxt, statusTxt, jqXHR){
+//   if(statusTxt == "success"){
+//       alert("New content loaded successfully!");
+//   }
+//   if(statusTxt == "error"){
+//       alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+//   }
+// });
